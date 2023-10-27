@@ -1,0 +1,10 @@
+// EL OPERADOR TERNARIO ES UNA FORMA CONCISA DE ESCRIBIR UNA 
+// DECLARACION CONDICIONAL
+// SE PUEDE USAR PARA ASIGNAR UN VALOR DE QUE SE EVALUE UNA CONDICION
+const edad = 19
+
+// SE NOS CONFIRME SI SON MAYOR DE edadSI ERES MAYOR DE 18, ERES MAYOR DE EDAD
+
+const mensaje =  (edad >= 18) ? "Eres mayor de edad" : "Eres menor de edad"
+
+console.log(mensaje);
