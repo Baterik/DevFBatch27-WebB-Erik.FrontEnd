@@ -6,8 +6,9 @@ import seis from './assets/img/seis.jpg'
 import tres from './assets/img/tres.jpg'
 import uno from './assets/img/uno.jpg'
 import ilustracion from './assets/img/ilustracion.svg'
-import ilustracion1 from './assets/img/ilustracion1.svg'
 import Header from './components/Header'
+import Seccion1 from './components/Seccion1'
+import Juntos from './components/Juntos'
 
 function App () {
   return (
@@ -17,52 +18,15 @@ function App () {
         desc='Acabamos de aprender como pasar HTML a JSX de forma "dinámica"'
         boton='Contáctame'
       />
-      <Header
-        titulo='Título 2'
-        desc='Este es un componente reutilizable'
-        boton='Genial'
+      <Seccion1
+        titulo='Hola desde JSX'
+        parrafo='Acabamos de aprender como pasar HTML a JSX de forma "dinámica"'
+        textoBoton='Contáctame'
       />
-      <section className='wave-contenedor website'>
-        <img src={ilustracion1} alt='' />
-        <div className='contenedor-textos-main'>
-          <h2 className='titulo left'>Title of section</h2>
-          <p className='parrafo'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt enim reiciendis
-            molestias nam tempore. Ullam hic accusantium eligendi ipsam corrupti!
-          </p>
-          <a href='' className='cta'>Learn more</a>
-        </div>
-      </section>
-
-      <section className='info'>
-        <div className='contenedor'>
-          <h2 className='titulo left'>Juntos podemos apoyar</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-        </div>
-      </section>
-
-      <section className='cards contenedor'>
-        <h2 className='titulo'>Our services</h2>
-        <div className='content-cards'>
-          <article className='card'>
-            <i className='far fa-clone' />
-            <h3>Title Card</h3>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-            <a href='' className='cta'>Learn more</a>
-          </article>
-          <article className='card'>
-            <i className='fas fa-database' />
-            <h3>Title Card</h3>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-            <a href='' className='cta'>Learn more</a>
-          </article>
-          <article className='card'>
-            <i className='far fa-object-group' />
-            <h3>Title Card</h3>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-            <a href='' className='cta'>Learn more</a>
-          </article>
-        </div>
-      </section>
+      <Juntos
+        titulo='Juntos lo podemos lograr'
+        parrafo='Es hora de actuar'
+      />
 
       <section className='galeria'>
         <div className='contenedor'>
